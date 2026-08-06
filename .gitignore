@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Build outputs
+/build/
+
+# Wails frontend build artifacts
+/frontend/dist/
+/frontend/node_modules/
+/frontend/package-lock.json.md5
+
+# Local npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
