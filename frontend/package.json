@@ -1,0 +1,12 @@
+{
+  "name": "family-vpn-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html dist && cp src/main.js dist/main.js && cp src/style.css dist/style.css",
+    "dev": "npm run build && npx http-server dist -p 34116 --silent"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
